@@ -1,0 +1,240 @@
+2024-03-31 13:48:28,814 - INFO - Logger initialised.
+2024-03-31 13:48:28,814 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 13:48:28,815 - INFO - ncpu:40
+2024-03-31 13:48:28,815 - INFO - namemark:final
+2024-03-31 13:54:36,651 - INFO - Logger initialised.
+2024-03-31 13:54:36,651 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 13:54:36,652 - INFO - ncpu:40
+2024-03-31 13:54:36,652 - INFO - namemark:final
+2024-03-31 13:58:57,368 - INFO - Logger initialised.
+2024-03-31 13:58:57,368 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 13:58:57,368 - INFO - ncpu:40
+2024-03-31 13:58:57,369 - INFO - namemark:final
+2024-03-31 13:58:57,460 - INFO - seed:[286325, 781424, 756302, 951924, 781767, 311668, 96520, 346914, 721019, 373272]
+2024-03-31 13:58:57,500 - INFO - envtype:atari
+2024-03-31 13:58:57,500 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 13:58:57,500 - INFO - lambda:5
+2024-03-31 13:58:57,500 - INFO - population size:10
+2024-03-31 13:58:57,500 - INFO - phi:0.001
+2024-03-31 13:58:57,500 - INFO - lr_mean:0.2
+2024-03-31 13:58:57,500 - INFO - lr_sigma:0.1
+2024-03-31 13:58:57,500 - INFO - sigma_init:2
+2024-03-31 13:58:57,500 - INFO - timestep limit:100000000.0
+2024-03-31 13:58:57,500 - INFO - lr decay enable ?:True
+2024-03-31 13:58:57,500 - INFO - phi decay enable ?:True
+2024-03-31 13:58:57,500 - INFO - evatime decay enable ?:True
+2024-03-31 13:58:57,500 - INFO - H: -10; L: 10
+2024-03-31 13:58:57,500 - INFO - EvaluateTimes 3
+2024-03-31 13:58:57,612 - INFO - start testing reference batch statistic
+2024-03-31 14:04:36,389 - INFO - Logger initialised.
+2024-03-31 14:04:36,390 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:04:36,390 - INFO - ncpu:40
+2024-03-31 14:04:36,390 - INFO - namemark:final
+2024-03-31 14:04:36,480 - INFO - seed:[225339, 604940, 446562, 399933, 635553, 212774, 62976, 365298, 707805, 182783]
+2024-03-31 14:04:36,496 - INFO - envtype:atari
+2024-03-31 14:04:36,496 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 14:04:36,496 - INFO - lambda:5
+2024-03-31 14:04:36,496 - INFO - population size:10
+2024-03-31 14:04:36,496 - INFO - phi:0.001
+2024-03-31 14:04:36,496 - INFO - lr_mean:0.2
+2024-03-31 14:04:36,496 - INFO - lr_sigma:0.1
+2024-03-31 14:04:36,496 - INFO - sigma_init:2
+2024-03-31 14:04:36,496 - INFO - timestep limit:100000000.0
+2024-03-31 14:04:36,496 - INFO - lr decay enable ?:True
+2024-03-31 14:04:36,496 - INFO - phi decay enable ?:True
+2024-03-31 14:04:36,496 - INFO - evatime decay enable ?:True
+2024-03-31 14:04:36,496 - INFO - H: -10; L: 10
+2024-03-31 14:04:36,496 - INFO - EvaluateTimes 3
+2024-03-31 14:04:36,581 - INFO - start testing reference batch statistic
+2024-03-31 14:07:24,526 - INFO - Logger initialised.
+2024-03-31 14:07:24,526 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:07:24,526 - INFO - ncpu:40
+2024-03-31 14:07:24,526 - INFO - namemark:final
+2024-03-31 14:07:24,616 - INFO - seed:[648464, 789073, 458367, 20098, 934178, 88219, 88504, 162022, 292361, 841964]
+2024-03-31 14:07:24,632 - INFO - envtype:atari
+2024-03-31 14:07:24,632 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 14:07:24,632 - INFO - lambda:5
+2024-03-31 14:07:24,632 - INFO - population size:10
+2024-03-31 14:07:24,632 - INFO - phi:0.001
+2024-03-31 14:07:24,632 - INFO - lr_mean:0.2
+2024-03-31 14:07:24,632 - INFO - lr_sigma:0.1
+2024-03-31 14:07:24,632 - INFO - sigma_init:2
+2024-03-31 14:07:24,632 - INFO - timestep limit:100000000.0
+2024-03-31 14:07:24,632 - INFO - lr decay enable ?:True
+2024-03-31 14:07:24,632 - INFO - phi decay enable ?:True
+2024-03-31 14:07:24,632 - INFO - evatime decay enable ?:True
+2024-03-31 14:07:24,632 - INFO - H: -10; L: 10
+2024-03-31 14:07:24,632 - INFO - EvaluateTimes 3
+2024-03-31 14:07:24,707 - INFO - start testing reference batch statistic
+2024-03-31 14:07:41,284 - INFO - Logger initialised.
+2024-03-31 14:07:41,284 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:07:41,284 - INFO - ncpu:40
+2024-03-31 14:07:41,285 - INFO - namemark:final
+2024-03-31 14:07:41,376 - INFO - seed:[344493, 790730, 698623, 897509, 798910, 518680, 923912, 103984, 83018, 930359]
+2024-03-31 14:07:41,392 - INFO - envtype:atari
+2024-03-31 14:07:41,392 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 14:07:41,392 - INFO - lambda:5
+2024-03-31 14:07:41,393 - INFO - population size:10
+2024-03-31 14:07:41,393 - INFO - phi:0.001
+2024-03-31 14:07:41,393 - INFO - lr_mean:0.2
+2024-03-31 14:07:41,393 - INFO - lr_sigma:0.1
+2024-03-31 14:07:41,393 - INFO - sigma_init:2
+2024-03-31 14:07:41,393 - INFO - timestep limit:100000000.0
+2024-03-31 14:07:41,393 - INFO - lr decay enable ?:True
+2024-03-31 14:07:41,393 - INFO - phi decay enable ?:True
+2024-03-31 14:07:41,393 - INFO - evatime decay enable ?:True
+2024-03-31 14:07:41,393 - INFO - H: -10; L: 10
+2024-03-31 14:07:41,393 - INFO - EvaluateTimes 3
+2024-03-31 14:07:41,470 - INFO - start testing reference batch statistic
+2024-03-31 14:08:01,070 - INFO - Logger initialised.
+2024-03-31 14:08:01,072 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:08:01,072 - INFO - ncpu:40
+2024-03-31 14:08:01,072 - INFO - namemark:final
+2024-03-31 14:08:01,162 - INFO - seed:[744237, 546040, 361073, 819152, 70125, 738946, 505983, 946827, 367350, 68460]
+2024-03-31 14:08:01,177 - INFO - envtype:atari
+2024-03-31 14:08:01,177 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 14:08:01,178 - INFO - lambda:5
+2024-03-31 14:08:01,178 - INFO - population size:10
+2024-03-31 14:08:01,178 - INFO - phi:0.001
+2024-03-31 14:08:01,178 - INFO - lr_mean:0.2
+2024-03-31 14:08:01,178 - INFO - lr_sigma:0.1
+2024-03-31 14:08:01,178 - INFO - sigma_init:2
+2024-03-31 14:08:01,178 - INFO - timestep limit:100000000.0
+2024-03-31 14:08:01,178 - INFO - lr decay enable ?:True
+2024-03-31 14:08:01,178 - INFO - phi decay enable ?:True
+2024-03-31 14:08:01,178 - INFO - evatime decay enable ?:True
+2024-03-31 14:08:01,178 - INFO - H: -10; L: 10
+2024-03-31 14:08:01,178 - INFO - EvaluateTimes 3
+2024-03-31 14:08:01,259 - INFO - start testing reference batch statistic
+2024-03-31 14:12:55,051 - INFO - Logger initialised.
+2024-03-31 14:12:55,051 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:12:55,052 - INFO - ncpu:40
+2024-03-31 14:12:55,052 - INFO - namemark:final
+2024-03-31 14:12:55,143 - INFO - seed:[126431, 489039, 168671, 849344, 143866, 781234, 985709, 552832, 524991, 90457]
+2024-03-31 14:12:55,159 - INFO - envtype:atari
+2024-03-31 14:12:55,159 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 14:12:55,159 - INFO - lambda:5
+2024-03-31 14:12:55,159 - INFO - population size:10
+2024-03-31 14:12:55,159 - INFO - phi:0.001
+2024-03-31 14:12:55,159 - INFO - lr_mean:0.2
+2024-03-31 14:12:55,159 - INFO - lr_sigma:0.1
+2024-03-31 14:12:55,159 - INFO - sigma_init:2
+2024-03-31 14:12:55,159 - INFO - timestep limit:100000000.0
+2024-03-31 14:12:55,159 - INFO - lr decay enable ?:True
+2024-03-31 14:12:55,159 - INFO - phi decay enable ?:True
+2024-03-31 14:12:55,160 - INFO - evatime decay enable ?:True
+2024-03-31 14:12:55,160 - INFO - H: -10; L: 10
+2024-03-31 14:12:55,160 - INFO - EvaluateTimes 3
+2024-03-31 14:12:55,234 - INFO - start testing reference batch statistic
+2024-03-31 14:16:56,801 - INFO - Logger initialised.
+2024-03-31 14:16:56,801 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:16:56,801 - INFO - ncpu:40
+2024-03-31 14:16:56,801 - INFO - namemark:final
+2024-03-31 14:16:56,891 - INFO - seed:[553656, 564227, 733103, 263772, 583370, 471577, 18689, 485634, 584781, 314077]
+2024-03-31 14:16:56,906 - INFO - envtype:atari
+2024-03-31 14:16:56,907 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 14:16:56,907 - INFO - lambda:5
+2024-03-31 14:16:56,907 - INFO - population size:10
+2024-03-31 14:16:56,907 - INFO - phi:0.001
+2024-03-31 14:16:56,907 - INFO - lr_mean:0.2
+2024-03-31 14:16:56,907 - INFO - lr_sigma:0.1
+2024-03-31 14:16:56,907 - INFO - sigma_init:2
+2024-03-31 14:16:56,907 - INFO - timestep limit:100000000.0
+2024-03-31 14:16:56,907 - INFO - lr decay enable ?:True
+2024-03-31 14:16:56,907 - INFO - phi decay enable ?:True
+2024-03-31 14:16:56,907 - INFO - evatime decay enable ?:True
+2024-03-31 14:16:56,907 - INFO - H: -10; L: 10
+2024-03-31 14:16:56,907 - INFO - EvaluateTimes 3
+2024-03-31 14:16:56,998 - INFO - start testing reference batch statistic
+2024-03-31 14:21:59,675 - INFO - Logger initialised.
+2024-03-31 14:21:59,675 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:21:59,675 - INFO - ncpu:40
+2024-03-31 14:21:59,676 - INFO - namemark:final
+2024-03-31 14:21:59,765 - INFO - seed:[2211, 931860, 525983, 164546, 203688, 286974, 280166, 162474, 211215, 869739]
+2024-03-31 14:21:59,780 - INFO - envtype:atari
+2024-03-31 14:21:59,780 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 14:21:59,780 - INFO - lambda:5
+2024-03-31 14:21:59,780 - INFO - population size:10
+2024-03-31 14:21:59,780 - INFO - phi:0.001
+2024-03-31 14:21:59,780 - INFO - lr_mean:0.2
+2024-03-31 14:21:59,780 - INFO - lr_sigma:0.1
+2024-03-31 14:21:59,780 - INFO - sigma_init:2
+2024-03-31 14:21:59,780 - INFO - timestep limit:100000000.0
+2024-03-31 14:21:59,780 - INFO - lr decay enable ?:True
+2024-03-31 14:21:59,780 - INFO - phi decay enable ?:True
+2024-03-31 14:21:59,780 - INFO - evatime decay enable ?:True
+2024-03-31 14:21:59,780 - INFO - H: -10; L: 10
+2024-03-31 14:21:59,780 - INFO - EvaluateTimes 3
+2024-03-31 14:21:59,860 - INFO - start testing reference batch statistic
+2024-03-31 14:27:52,699 - INFO - Logger initialised.
+2024-03-31 14:27:52,699 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:27:52,699 - INFO - ncpu:40
+2024-03-31 14:27:52,699 - INFO - namemark:final
+2024-03-31 14:27:52,788 - INFO - seed:[537037, 729467, 400463, 454353, 497968, 406168, 707878, 93360, 634590, 832050]
+2024-03-31 14:27:52,804 - INFO - envtype:atari
+2024-03-31 14:27:52,804 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 14:27:52,804 - INFO - lambda:5
+2024-03-31 14:27:52,804 - INFO - population size:10
+2024-03-31 14:27:52,804 - INFO - phi:0.001
+2024-03-31 14:27:52,804 - INFO - lr_mean:0.2
+2024-03-31 14:27:52,804 - INFO - lr_sigma:0.1
+2024-03-31 14:27:52,804 - INFO - sigma_init:2
+2024-03-31 14:27:52,804 - INFO - timestep limit:100000000.0
+2024-03-31 14:27:52,804 - INFO - lr decay enable ?:True
+2024-03-31 14:27:52,804 - INFO - phi decay enable ?:True
+2024-03-31 14:27:52,804 - INFO - evatime decay enable ?:True
+2024-03-31 14:27:52,804 - INFO - H: -10; L: 10
+2024-03-31 14:27:52,804 - INFO - EvaluateTimes 3
+2024-03-31 14:27:52,882 - INFO - start testing reference batch statistic
+2024-03-31 14:28:15,830 - INFO - Logger initialised.
+2024-03-31 14:28:15,830 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:28:15,830 - INFO - ncpu:40
+2024-03-31 14:28:15,830 - INFO - namemark:final
+2024-03-31 14:28:15,919 - INFO - seed:[717138, 84921, 568128, 991175, 975408, 966790, 393123, 301959, 426401, 607459]
+2024-03-31 14:28:15,935 - INFO - envtype:atari
+2024-03-31 14:28:15,935 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 14:28:15,935 - INFO - lambda:5
+2024-03-31 14:28:15,935 - INFO - population size:10
+2024-03-31 14:28:15,935 - INFO - phi:0.001
+2024-03-31 14:28:15,935 - INFO - lr_mean:0.2
+2024-03-31 14:28:15,935 - INFO - lr_sigma:0.1
+2024-03-31 14:28:15,935 - INFO - sigma_init:2
+2024-03-31 14:28:15,935 - INFO - timestep limit:100000000.0
+2024-03-31 14:28:15,935 - INFO - lr decay enable ?:True
+2024-03-31 14:28:15,935 - INFO - phi decay enable ?:True
+2024-03-31 14:28:15,935 - INFO - evatime decay enable ?:True
+2024-03-31 14:28:15,935 - INFO - H: -10; L: 10
+2024-03-31 14:28:15,935 - INFO - EvaluateTimes 3
+2024-03-31 14:28:16,007 - INFO - start testing reference batch statistic
+2024-03-31 14:31:32,776 - INFO - Logger initialised.
+2024-03-31 14:31:32,776 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:31:32,776 - INFO - ncpu:40
+2024-03-31 14:31:32,776 - INFO - namemark:final
+2024-03-31 14:31:32,864 - INFO - seed:[306375, 211534, 983374, 371905, 486309, 89231, 652257, 109925, 144710, 101476]
+2024-03-31 14:31:32,880 - INFO - envtype:atari
+2024-03-31 14:31:32,880 - INFO - Gamename:FreewayNoFrameskip-v4
+2024-03-31 14:31:32,880 - INFO - lambda:5
+2024-03-31 14:31:32,880 - INFO - population size:10
+2024-03-31 14:31:32,880 - INFO - phi:0.001
+2024-03-31 14:31:32,880 - INFO - lr_mean:0.2
+2024-03-31 14:31:32,880 - INFO - lr_sigma:0.1
+2024-03-31 14:31:32,880 - INFO - sigma_init:2
+2024-03-31 14:31:32,880 - INFO - timestep limit:100000000.0
+2024-03-31 14:31:32,880 - INFO - lr decay enable ?:True
+2024-03-31 14:31:32,880 - INFO - phi decay enable ?:True
+2024-03-31 14:31:32,880 - INFO - evatime decay enable ?:True
+2024-03-31 14:31:32,880 - INFO - H: -10; L: 10
+2024-03-31 14:31:32,880 - INFO - EvaluateTimes 3
+2024-03-31 14:31:32,952 - INFO - start testing reference batch statistic
+2024-03-31 14:41:00,068 - INFO - Logger initialised.
+2024-03-31 14:41:00,068 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:41:00,068 - INFO - ncpu:40
+2024-03-31 14:41:00,068 - INFO - namemark:final
+2024-03-31 14:42:49,011 - INFO - Logger initialised.
+2024-03-31 14:42:49,012 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:42:49,012 - INFO - ncpu:40
+2024-03-31 14:42:49,012 - INFO - namemark:final
+2024-03-31 14:44:46,484 - INFO - Logger initialised.
+2024-03-31 14:44:46,485 - INFO - Game name: FreewayNoFrameskip-v4
+2024-03-31 14:44:46,485 - INFO - ncpu:40
+2024-03-31 14:44:46,485 - INFO - namemark:final

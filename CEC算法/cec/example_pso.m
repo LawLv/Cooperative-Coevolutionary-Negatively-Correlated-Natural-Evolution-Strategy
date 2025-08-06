@@ -1,0 +1,169 @@
+
+% ----------------------- README ------------------------------------------
+% -------------- 最后一次修改：2023/11/24 ---------------------------------
+% -------------------  欢迎关注₍^.^₎♡  ------------------------------------
+% -------------- 项目：CEC测试函数合集  -----------------------------------
+% -------------- 微信公众号：KAU的云实验台(可咨询定制) ---------------------
+% -------------- CSDN：KAU的云实验台 --------------------------------------
+% -------------- 付费代码：https://mbd.pub/o/author-a2iWlGtpZA== ----------
+% -------------- 免费代码：公众号后台回复"资源" ---------------------------
+% -------------------------------------------------------------------------
+
+%% 关于CEC20XX_plot.m有时候会报错 因为有的函数Dim不能为2无法绘图
+
+%% 清空工作区
+clc
+clear
+close all
+Function_name = 'F1';% 测试函数
+
+%% CEC2005
+disp(strcat('------ 测试函数: ',Function_name))
+% 测试函数获取
+[lb,ub,dim,fobj] = Get_CEC2005_details(Function_name);
+SearchAgents_no=100; % 种群量级
+Max_iteration=100; % 迭代次数
+lb= lb.*ones( 1,dim );
+ub= ub.*ones( 1,dim );
+% 粒子群算法
+[PSO_Curve05,PSO_FIT05,PSO_chrom05] = perf_PSO(lb,ub,dim,fobj,SearchAgents_no,Max_iteration);
+disp '------------ CEC2005完成 --------------------------- '
+figure('Position',[269   240   660   290])
+subplot(1,2,1);
+[x,y,f] = CEC2005_plot(Function_name);
+surfc(x,y,f,'LineStyle','none');hold on
+shading flat     % 各小曲面之间不要网格
+colormap summer ;
+title('Parameter space')
+xlabel('x_1');
+ylabel('x_2');
+zlabel([Function_name,'( x_1 , x_2 )'])
+subplot(1,2,2);
+p2 = plot(PSO_Curve05,'Color','G','LineWidth',2);
+title('Objective space')
+xlabel('Iteration');
+ylabel('Best score obtained so far');
+axis tight
+grid on
+box on
+legend('PSO')
+
+
+%% CEC2017
+disp(strcat('------ 测试函数: ',Function_name));
+dim = 100; % 可选 2, 10, 30, 50, 100 不同函数可选维度不同 有的维度可能报错
+% 测试函数获取
+[lb,ub,dim,fobj] = Get_CEC2017_details(Function_name,dim);
+SearchAgents_no=100; % 种群量级
+Max_iteration=100; % 迭代次数
+[PSO_Curve17,PSO_FIT17,PSO_chrom17] = perf_PSO(lb,ub,dim,fobj,SearchAgents_no,Max_iteration);
+disp '------------ CEC2017完成 --------------------------- '
+figure('Position',[269   240   660   290])
+subplot(1,2,1);
+[x,y,f] = CEC2017_plot(Function_name);
+surfc(x,y,f,'LineStyle','none');hold on
+shading flat     % 各小曲面之间不要网格
+colormap parula ;
+title('Parameter space')
+xlabel('x_1');
+ylabel('x_2');
+zlabel([Function_name,'( x_1 , x_2 )'])
+subplot(1,2,2);
+p2 = plot(PSO_Curve17,'Color','G','LineWidth',2);
+title('Objective space')
+xlabel('Iteration');
+ylabel('Best score obtained so far');
+axis tight
+grid on
+box on
+legend('PSO')
+
+
+%% CEC2019
+disp(strcat('------ 测试函数: ',Function_name));
+% 测试函数获取
+[lb,ub,dim,fobj] = Get_CEC2019_details(Function_name);
+SearchAgents_no=100; % 种群量级
+Max_iteration=100; % 迭代次数
+[PSO_Curve19,PSO_FIT19,PSO_chrom19] = perf_PSO(lb,ub,dim,fobj,SearchAgents_no,Max_iteration);
+disp '------------ CEC2019完成 --------------------------- '
+figure('Position',[269   240   660   290])
+subplot(1,2,1);
+[x,y,f] = CEC2019_plot(Function_name);
+surfc(x,y,f,'LineStyle','none');hold on
+shading flat     % 各小曲面之间不要网格
+colormap hot ;
+title('Parameter space')
+xlabel('x_1');
+ylabel('x_2');
+zlabel([Function_name,'( x_1 , x_2 )'])
+subplot(1,2,2);
+p2 = plot(PSO_Curve19,'Color','G','LineWidth',2);
+title('Objective space')
+xlabel('Iteration');
+ylabel('Best score obtained so far');
+axis tight
+grid on
+box on
+legend('PSO')
+
+
+%% CEC2020
+disp(strcat('------ 测试函数: ',Function_name));
+% 测试函数获取
+dim = 20; % 维数，可选 2, 5, 10, 15, 20 不同函数可选维度不同 有的维度可能报错
+[lb,ub,dim,fobj] = Get_CEC2020_details(Function_name,dim);
+SearchAgents_no=100; % 种群量级
+Max_iteration=100; % 迭代次数
+[PSO_Curve20,PSO_FIT20,PSO_chrom20] = perf_PSO(lb,ub,dim,fobj,SearchAgents_no,Max_iteration);
+disp '------------ CEC2020完成 --------------------------- '
+figure('Position',[269   240   660   290])
+subplot(1,2,1);
+[x,y,f] = CEC2020_plot(Function_name);
+surfc(x,y,f,'LineStyle','none');hold on
+shading flat     % 各小曲面之间不要网格
+colormap pink ;
+title('Parameter space')
+xlabel('x_1');
+ylabel('x_2');
+zlabel([Function_name,'( x_1 , x_2 )'])
+subplot(1,2,2);
+p2 = plot(PSO_Curve20,'Color','G','LineWidth',2);
+title('Objective space')
+xlabel('Iteration');
+ylabel('Best score obtained so far');
+axis tight
+grid on
+box on
+legend('PSO')
+
+
+%% CEC2022
+disp(strcat('------ 测试函数: ',Function_name));
+dim = 2; % 可选 2, 10, 20
+% 测试函数获取
+[lb,ub,dim,fobj] = Get_CEC2022_details(Function_name,dim);
+SearchAgents_no=100; % 种群量级
+Max_iteration=100; % 迭代次数
+[PSO_Curve22,PSO_FIT22,PSO_chrom22] = perf_PSO(lb,ub,dim,fobj,SearchAgents_no,Max_iteration);
+disp '------------ CEC2022完成 --------------------------- '
+figure('Position',[269   240   660   290])
+subplot(1,2,1);
+[x,y,f] = CEC2022_plot(Function_name);
+surfc(x,y,f,'LineStyle','none');hold on
+shading flat     % 各小曲面之间不要网格
+colormap winter ;
+title('Parameter space')
+xlabel('x_1');
+ylabel('x_2');
+zlabel([Function_name,'( x_1 , x_2 )'])
+subplot(1,2,2);
+p2 = plot(PSO_Curve22,'Color','G','LineWidth',2);
+title('Objective space')
+xlabel('Iteration');
+ylabel('Best score obtained so far');
+axis tight
+grid on
+box on
+legend('PSO')
+
